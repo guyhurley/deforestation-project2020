@@ -1,15 +1,15 @@
-$("#stats").contents().find("p").attr("style","width:100%;height:100%;font-size:50px;");
 
-$(document).ready(function() {
-	$('#fullpage').fullpage({
-		//options here
-		autoScrolling:true,
-		scrollHorizontally: true
-	});
 
-	//methods
-	$.fn.fullpage.setAllowScrolling(false);
-});
+
+const options = {
+	  duration: 30,
+	};
+	let demo = new CountUp('counter', 6286, options);
+	if (!demo.error) {
+	  demo.start();
+	} else {
+	  console.error(demo.error);
+	}
 
 
 
