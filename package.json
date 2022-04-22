@@ -20,6 +20,6 @@
   "dependencies": {
     "counterup": "^1.0.2",
     "countup.js": "^2.0.5",
-    "fullpage.js": "^3.0.8"
+    "fullpage.js": "^4.0.5"
   }
 }
